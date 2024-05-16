@@ -34,13 +34,16 @@ const addTaskElement = () => {
 
   // Validation whether the value is present in the input else alert
   if (value.trim()) {
+    // li
     const li = document.createElement("li");
     li.classList.add("task");
 
+    // span
     const span = document.createElement("span");
     span.appendChild(document.createTextNode(value));
     li.appendChild(span);
 
+    // delBtn
     const delBtn = document.createElement("button");
     delBtn.appendChild(document.createTextNode("X"));
     li.appendChild(delBtn);
