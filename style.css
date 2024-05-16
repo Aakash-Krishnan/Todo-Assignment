@@ -94,7 +94,7 @@ button:hover {
 }
 
 .instructions > ul {
-  padding: 0px 10px;
+  padding: 4px 10px;
   border-radius: 10px;
   background-color: grey;
   color: white;
