@@ -3,7 +3,7 @@
 }
 
 #container {
-  margin: 10% 0;
+  /* margin: 10% 0; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -87,7 +87,15 @@ button:hover {
 }
 
 .instructions {
-  position: absolute;
+  width: 300px;
+  position: sticky;
   bottom: 10px;
   right: 50px;
+}
+
+.instructions > ul {
+  padding: 0px 10px;
+  border-radius: 10px;
+  background-color: grey;
+  color: white;
 }
