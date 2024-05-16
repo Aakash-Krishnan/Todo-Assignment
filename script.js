@@ -1,4 +1,4 @@
-console.log("Welcome to Todo");
+console.log("Todo");
 
 const input = document.getElementById("input");
 const inputBtn = document.getElementById("input-btn");
@@ -48,6 +48,7 @@ const addTaskElement = () => {
     delBtn.appendChild(document.createTextNode("X"));
     li.appendChild(delBtn);
 
+    // Can delete the task while holding shift key
     delBtn.addEventListener("click", (e) => {
       if (e.shiftKey) {
         li.remove();
